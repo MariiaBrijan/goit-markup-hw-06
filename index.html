@@ -521,7 +521,9 @@
                 class="form-input" 
                 type="text" 
                 name="name" 
-                id="user_name" />
+                id="user_name"
+                placeholder=" " />
+                
               <svg class="form-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-person"></use>
               </svg></div>
@@ -533,7 +535,8 @@
               class="form-input"
               type="tel" 
               name="telephone-number" 
-              id="user_phone" />
+              id="user_phone" 
+              placeholder=" "/>
             <svg class="form-icon" width="18" height="18">
               <use href="./images/icons.svg#icon-tel"></use>
             </svg>
@@ -546,18 +549,24 @@
           class="form-input" 
           type="email" 
           name="email" 
-          id="user_mail" />
+          id="user_mail"
+          placeholder=" " />
           <svg class="form-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-mail"></use>
           </svg>
           </div></div>
           <div class="form-field">
             <label class="form-label" for="comment">Коментар</label>
-            <textarea class="comment" name="comment" id="comment" rows="8" placeholder="Введіть текст"></textarea>
+            <textarea class="comment" name="comment" id="comment" placeholder="Введіть текст" placeholder=" "></textarea>
           </div>
 
           <label class="label-agree">
-            <input class="input-agree" type="checkbox" name="agreement" value="agreement"  />
+            <input class="input-agree visually-hidden" type="checkbox" name="agreement" value="agreement"  />
+            <span class="icon-wrapper">
+              <svg class="icon-agree" width="11" height="8">
+                <use href="./images/icons.svg#icon-agree"></use>
+              </svg>
+            </span>
           <span> Погоджуюся з розсилкою та приймаю  <a class="form-link" href="">Умови договору</a>  </span>
           </label>
 
